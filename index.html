@@ -1,1 +1,243 @@
-<!DOCTYPE html><html lang="en"><head>  <nav>     <ul>       <li><a href="#EDUCATION">EDUCATION</a></li><li><a href="#SKILLS">SKILLS</a></li><li><a href="#CONTECT ME">CONTECT ME</a></li><li><a href="#ADDRESS">ADDRESS</a></li>         <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Portfolio</title>    <style>        body {            font-family: Arial, sans-serif;            background-color: #000000;            color: #FFFFFF;            margin: 0;            padding: 0;		        }        .header {            text-align: center;            background-color: #FFD700; /* Yellow */            color: #000000; /* Black */            padding: 20px;        }        .slider {            display: flex;            justify-content: center;            overflow: hidden;            max-width: 100%;            height: 300px;            background: #FFD700; /* Yellow */        }        .slider img {            width: 100%;            height: auto;            transition: transform 0.5s ease-in-out;        }        .slider-wrapper {            width: 100%;            display: flex;            transition: transform 0.5s ease-in-out;        }        .slider-controls {            text-align: center;            margin-top: 10px;        }        .education, .skills, .projects, .contact, .footer {            padding: 20px;            text-align: center;        }        .education table, .projects table {            margin: 0 auto;            border-collapse: collapse;            width: 80%;        }        table, th, td {            border: 1px solid #FFD700; /* Yellow */        }        th, td {            padding: 10px;        }        th {            background-color: #FFD700; /* Yellow */            color: #000000; /* Black */        }        .skills ul {            list-style: none;            padding: 0;        }        .skills ul li {            background: #FFD700; /* Yellow */            color: #000000; /* Black */            margin: 5px 0;            padding: 10px;            border-radius: 5px;        }        .contact form {            display: inline-block;            text-align: left;        }        .contact input, .contact textarea {            width: 100%;            padding: 10px;            margin: 5px 0;            border: 1px solid #FFD700; /* Yellow */            border-radius: 5px;            color: #000000; /* Black */        }        .contact button {            background-color: #FFD700; /* Yellow */            color: #000000; /* Black */            border: none;            padding: 10px 20px;            border-radius: 5px;            cursor: pointer;        }        .contact button:hover {            background-color: #FFC107; /* Lighter Yellow */        }        .footer {            background-color: #FFD700; /* Yellow */            color: #000000; /* Black */            padding: 10px;        }	#photo{		margin-left:40%;		margin-right:40%;	}nav {    background-color: #333; /* Dark background color */    text-align: center;    padding: 10px 0; /* Padding around the navigation links */}nav ul {    list-style-type: none; /* Remove default list styles */    margin: 0;    padding: 0;}nav ul li {    display: inline; /* Display list items inline */    margin-right: 20px; /* Space between navigation links */}nav ul li a {    text-decoration: none;    color: #FFF; /* White text color */    padding: 5px 10px;    transition: all 0.3s ease; /* Smooth transition for hover effect */}nav ul li a:hover {    background-color: #555; /* Darker background color on hover */    border-radius: 5px; /* Rounded corners on hover */}.footer {    background-color: #333; /* Dark background color */    color: #FFF; /* White text color */    text-align: center;    padding: 10px;    position: fixed;    left: 0;    bottom: 0;    width: 100%;}    </style></head><body>    <div class="header">        <h1>BENO A</h1>        <p>Department Of Computer Sceince</p>    </div>    <div class="slider">        <div class="slider-wrapper">            <img id="photo" src="Ben.JPG"width="100px;">            <!-- Add more images as needed -->        </div>    </div>       <section id="EDUCATION">    <div class="education">        <h2>Education</h2>        <table>            <thead>                <tr>                    <th>EDUCATION</th>                    <th>INSTITUTION</th></section>                    <th></th>                </tr>            </thead>            <tbody>                <tr>                    <td>12th Grade</td>                    <td>ST.ARULANANDAR HIGER SECONDARY SCHOOL</td>                    <td>2022</td>                </tr>                <tr>                    <td>UG Degree</td>                    <td>ST.JOSEPH'S COLLEGE</td>                    <td>2025</td>                </tr>            </tbody>        </table>    </div><section id="SKILLS">    <div class="skills">        <h2>Skills</h2>        <ul>            <li>HTML</li>            <li>CSS</li>            <li>JavaScript</li>            <li>Python</li>            <!-- Add more skills as needed -->        </ul>    </div>  </SECTION></div><section id="ADDRESS">    <div class="address">        <h2>address</h2>        <ol style="font-size:25px;">            <li>2/81,Rettaiyalam</li><br>                      <li>Manamelkudi tk</li><br>            <li>Pudukkottai Dt</li>            <!-- Add more skills as needed -->        </ol>    </div>  </SECTION>          <section id="CONTECT ME">    <div class="contact">        <h2>Contact Me</h2>        <form action="submit_form.php" method="post">            <input type="text" name="name" placeholder="Your Name" required>            <input type="email" name="email" placeholder="Your Email" required>            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>            <button type="submit">Send Message</button>        </form>    </div></SECTION>s<div class="footer">    <p>&copy; 2024 BENO A. All rights reserved.</p>    <!-- You can add additional content or links here --></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <nav>
+     <ul>
+       <li>
+<a href="#EDUCATION">EDUCATION</a></li>
+<li><a href="#SKILLS">SKILLS</a></li>
+<li><a href="#CONTECT ME">CONTECT ME</a></li>
+<li><a href="#ADDRESS">ADDRESS</a></li>
+
+     
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+		
+        }
+        .header {
+            text-align: center;
+            background-color: #FFD700; /* Yellow */
+            color: #000000; /* Black */
+            padding: 20px;
+        }
+        .slider {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            max-width: 100%;
+            height: 300px;
+            background: #FFD700; /* Yellow */
+        }
+        .slider img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slider-wrapper {
+            width: 100%;
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slider-controls {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .education, .skills, .projects, .contact, .footer {
+            padding: 20px;
+            text-align: center;
+        }
+        .education table, .projects table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 1px solid #FFD700; /* Yellow */
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: #FFD700; /* Yellow */
+            color: #000000; /* Black */
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #FFD700; /* Yellow */
+            color: #000000; /* Black */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: inline-block;
+            text-align: left;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #FFD700; /* Yellow */
+            border-radius: 5px;
+            color: #000000; /* Black */
+        }
+        .contact button {
+            background-color: #FFD700; /* Yellow */
+            color: #000000; /* Black */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #FFC107; /* Lighter Yellow */
+        }
+        .footer {
+            background-color: #FFD700; /* Yellow */
+            color: #000000; /* Black */
+            padding: 10px;
+        }
+	#photo{
+		margin-left:40%;
+		margin-right:40%;
+	}nav {
+    background-color: #333; /* Dark background color */
+    text-align: center;
+    padding: 10px 0; /* Padding around the navigation links */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Space between navigation links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF; /* White text color */
+    padding: 5px 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #FFF; /* White text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>BENO A</h1>
+        <p>Department Of Computer Sceince
+</p>
+    </div>
+
+    <div class="slider">
+        <div class="slider-wrapper">
+            <img id="photo" src="Ben.png"width="100px;">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+       <section id="EDUCATION">
+    <div class="education">
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>EDUCATION</th>
+                    <th>INSTITUTION</th></section>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12th Grade</td>
+                    <td>ST.ARULANANDAR HIGER SECONDARY SCHOOL</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>UG Degree</td>
+                    <td>ST.JOSEPH'S COLLEGE</td>
+                    <td>2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<section id="SKILLS">
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+  </SECTION>
+</div>
+<section id="ADDRESS">
+
+    <div class="address">
+        <h2>address</h2>
+        <ol style="font-size:25px;">
+            <li>2/81,Rettaiyalam</li><br>
+          
+            <li>Manamelkudi tk</li><br>
+            <li>Pudukkottai Dt</li>
+            <!-- Add more skills as needed -->
+        </ol>
+    </div>
+  </SECTION>
+    
+
+    
+  <section id="CONTECT ME">
+
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div></SECTION>s
+<div class="footer">
+    <p>&copy; 2024 BENO A. All rights reserved.</p>
+    <!-- You can add additional content or links here -->
+</div>
+</body>
+</html>
